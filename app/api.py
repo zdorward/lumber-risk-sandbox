@@ -4,7 +4,17 @@ from fastapi.middleware.cors import CORSMiddleware
 from .etl import run_etl
 from .analytics import compute_analytics
 
-app = FastAPI(title="Lumber Risk Sandbox")
+import os
+from contextlib import asynccontextmanager
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # if DB doesn’t exist, or is empty, run ETL once
+    if not os.path.exists("lumber.db"):
+        run_etl()
+    yield
+
+app = FastAPI(title="Lumber Risk Sandbox", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
