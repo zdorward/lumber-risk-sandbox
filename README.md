@@ -1,6 +1,8 @@
 # Lumber Risk Sandbox
 
-<img width="1508" height="853" alt="Screenshot 2025-12-11 at 5 35 08 PM" src="https://github.com/user-attachments/assets/a9abf2cf-3338-4b64-9fff-995ec744a66b" />
+<img width="1512" height="851" alt="image" src="https://github.com/user-attachments/assets/744299eb-818d-4753-bc6d-acdfbfbbf7b8" />
+<img width="1512" height="853" alt="image" src="https://github.com/user-attachments/assets/5860c32e-b0e9-45de-aec3-d93663c88d46" />
+
 
 This project provides a demo environment for a lumber futures hedging model, complete with:
 
