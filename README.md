@@ -1,5 +1,7 @@
 # Lumber Risk Sandbox
 
+<img width="1508" height="853" alt="Screenshot 2025-12-11 at 5 35 08 PM" src="https://github.com/user-attachments/assets/a9abf2cf-3338-4b64-9fff-995ec744a66b" />
+
 This project provides a demo environment for a lumber futures hedging model, complete with:
 
 - A FastAPI backend (`app/api.py`)
