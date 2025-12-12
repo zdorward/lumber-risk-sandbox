@@ -31,13 +31,7 @@ source venv/bin/activate     # Windows: venv\Scripts\activate
 make install
 ```
 
-### 4. Run ETL (creates lumber.db)
-
-```bash
-make etl
-```
-
-### 5. Run the full demo (backend + frontend)
+### 4. Run the full demo (backend + frontend)
 
 ```bash
 make demo
