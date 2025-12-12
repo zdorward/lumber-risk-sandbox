@@ -10,6 +10,20 @@ st.set_page_config(page_title="Lumber Risk Sandbox", layout="wide")
 
 st.title("Lumber Risk Sandbox")
 
+st.markdown(
+    """
+    This dashboard simulates hedging a **long lumber price exposure** using a simple trend rule:
+
+    - You are assumed to be continuously long the underlying lumber exposure.
+    - A **70% hedge** is applied on days when the **short moving average** is below the **long moving average** (downtrend signal).
+    - **Unhedged P&L** is the cumulative profit and loss of staying fully exposed.
+    - **Hedged P&L** is the cumulative profit and loss after applying the 70% hedge rule.
+    - **Hedge Vol Reduction** shows how much the hedge reduces the standard deviation of daily P&L.
+
+    Use the controls below to change the moving-average windows and notional exposure, and see how the hedge affects both returns and risk.
+    """
+)
+
 col1, col2, col3 = st.columns(3)
 with col1:
     symbol = st.text_input("Symbol", value="LBS=F")
