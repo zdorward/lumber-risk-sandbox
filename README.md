@@ -14,7 +14,7 @@ This project provides a demo environment for a lumber futures hedging model, com
 ### 1. Clone the repo
 
 ```bash
-git clone <repo-url> lumber-risk-sandbox
+git clone https://github.com/zdorward/lumber-risk-sandbox.git lumber-risk-sandbox
 cd lumber-risk-sandbox
 ```
 
