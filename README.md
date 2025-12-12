@@ -53,7 +53,7 @@ You should see the analytics dashboard and be able to run hedge simulations.
 
 ---
 
-## 🐳 Docker Quickstart (Recommended for Clean Demo)
+## 🐳 Docker Quickstart
 
 Prereqs:
 
