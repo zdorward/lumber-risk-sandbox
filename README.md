@@ -11,7 +11,7 @@ This project provides a demo environment for a lumber futures hedging model, com
 
 ---
 
-## 🚀 Quickstart (Local, No Docker)
+## 🚀 Quickstart (Local)
 
 ### 1. Clone the repo
 
@@ -121,21 +121,3 @@ lumber-risk-sandbox/
 ├── docker-compose.yml
 └── README.md
 ```
-
----
-
-## ✔ Summary
-
-**Local demo:**
-
-```bash
-make demo
-```
-
-**Docker demo (clean, reproducible):**
-
-```bash
-docker compose up --build
-```
-
-You're ready to demo the hedging sandbox anywhere with minimal setup.
